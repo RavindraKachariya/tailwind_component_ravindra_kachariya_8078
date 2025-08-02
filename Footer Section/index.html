@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Footer Section</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="relative min-h-screen bg-cover bg-center"
+    style="background-image: url('./assets/image/email-with-footer.png');">
+
+    <div class="absolute inset-0 bg-white/40 backdrop-blur-sm z-0"></div>
+
+    <div class="relative z-10 flex items-center justify-center min-h-screen p-4">
+        <footer class="bg-white/90 backdrop-blur-sm shadow-lg p-8 w-full max-w-5xl rounded-lg">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 text-center md:text-left text-gray-800">
+
+                <div>
+                    <h3 class="font-bold mb-2">Newsletter</h3>
+                    <input type="email" placeholder="Enter Your E-mail" class="w-full p-2 rounded border" />
+                    <button
+                        class="mt-2 bg-purple-500 hover:bg-purple-600 text-white py-2 px-4 rounded w-full">Submit</button>
+                </div>
+
+                <div>
+                    <h3 class="font-bold mb-2">Follow Us</h3>
+                    <div class="flex justify-center md:justify-start space-x-3">
+                        <a href="#"
+                            class="bg-gray-300 hover:bg-gray-400 rounded-full w-10 h-10 flex items-center justify-center transition">
+                            <i class="fab fa-facebook-f text-gray-700 text-sm"></i>
+                        </a>
+                        <a href="#"
+                            class="bg-gray-300 hover:bg-gray-400 rounded-full w-10 h-10 flex items-center justify-center transition">
+                            <i class="fab fa-twitter text-gray-700 text-sm"></i>
+                        </a>
+                        <a href="#"
+                            class="bg-gray-300 hover:bg-gray-400 rounded-full w-10 h-10 flex items-center justify-center transition">
+                            <i class="fab fa-dropbox text-gray-700 text-sm"></i>
+                        </a>
+                        <a href="#"
+                            class="bg-gray-300 hover:bg-gray-400 rounded-full w-10 h-10 flex items-center justify-center transition">
+                            <i class="fab fa-google text-gray-700 text-sm"></i>
+                        </a>
+                        <a href="#"
+                            class="bg-gray-300 hover:bg-gray-400 rounded-full w-10 h-10 flex items-center justify-center transition">
+                            <i class="fab fa-linkedin-in text-gray-700 text-sm"></i>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div>
+                    <h3 class="font-bold mb-2">Get in touch</h3>
+                    <ul class="space-y-1">
+                        <li><a href="#" class="hover:underline">Live Chat</a></li>
+                        <li><a href="#" class="hover:underline">Call Us</a></li>
+                        <li><a href="#" class="hover:underline">Video Chat</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="font-bold mb-2">Language</h3>
+                    <select class="border p-2 rounded w-full">
+                        <option>English</option>
+                        <option>Hindi</option>
+                        <option>Spanish</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="mt-6 text-center text-sm text-gray-600">
+                Sitemap. Privacy © Robowolf, Saint-Petersburg
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
