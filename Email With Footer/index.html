@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email With Footer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="relative bg-cover bg-center min-h-screen"
+    style="background-image:url('./assets/image/email-with-footer.png')">
+    <div class="absolute inset-0 bg-black/40 backdrop-blur-sm"></div>
+
+    <main class="relative z-10 flex items-center justify-center min-h-screen">
+        <section class="bg-white rounded-xl shadow-lg w-full max-w-6xl p-6">
+            <div class="grid grid-cols-4 gap-6">
+
+                <div class="flex flex-col space-y-4">
+                    <h2 class="text-2xl font-medium">Newsletter</h2>
+                    <input type="email" placeholder="Enter your email" class="border rounded px-3 py-2">
+                    <button class="bg-indigo-600 text-white font-medium py-2 rounded">Submit</button>
+                </div>
+
+                <div class="flex flex-col space-y-4 ps-4">
+                    <h2 class="text-2xl font-medium">Follow Us</h2>
+                    <div class="flex space-x-3">
+                        <span class="bg-gray-300 p-3 rounded-full"><i class="fa-brands fa-facebook-f"></i></span>
+                        <span class="bg-gray-300 p-3 rounded-full"><i class="fa-brands fa-twitter"></i></span>
+                        <span class="bg-gray-300 p-3 rounded-full"><i class="fa-brands fa-instagram"></i></span>
+                        <span class="bg-gray-300 p-3 rounded-full"><i class="fa-brands fa-google"></i></span>
+                        <span class="bg-gray-300 p-3 rounded-full"><i class="fa-brands fa-linkedin-in"></i></span>
+                    </div>
+                </div>
+
+                <div class="flex flex-col space-y-3 ps-8">
+                    <h2 class="text-2xl font-medium">Get in Touch</h2>
+                    <span class="text-gray-500 font-medium">Live Chat</span>
+                    <span class="text-gray-500 font-medium">Call Us</span>
+                    <span class="text-gray-500 font-medium">Video Chat</span>
+                </div>
+
+                <div class="flex flex-col space-y-3">
+                    <h2 class="text-2xl font-medium">Language</h2>
+                    <select class="border border-indigo-600 rounded px-2 py-2 text-gray-600">
+                        <option>English</option>
+                        <option>Gujarati</option>
+                        <option>Hindi</option>
+                    </select>
+                </div>
+            </div>
+
+            <hr class="border-t border-gray-200 mt-6 mb-4">
+            <footer class="text-sm text-gray-600">Sitemap · Privacy © Robowolf, Saint-Petersburg</footer>
+        </section>
+    </main>
+</body>
+
+</html>

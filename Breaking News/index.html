@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Breaking News</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="relative bg-cover bg-center min-h-screen"
+    style="background-image: url('./assets/image/breaking-news.png');">
+
+    <div class="absolute inset-0 bg-black/50 backdrop-blur-md z-0"></div>
+
+    <div class="relative z-10 max-w-7xl mx-auto px-6 py-12">
+        <h1 class="text-4xl font-bold text-white text-center mb-10">
+            <i class="fa-solid fa-bolt text-yellow-400"></i> Breaking News
+        </h1>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <div
+                class="bg-white rounded-2xl shadow-lg overflow-hidden transform hover:-translate-y-2 hover:shadow-2xl transition">
+                <img src="./assets/image/lg.jpg" alt="" class="w-full h-48 object-cover">
+                <div class="p-5">
+                    <h2 class="font-semibold text-xl mb-2">Reusable Elements</h2>
+                    <p class="text-gray-600 mb-3">The Earth was small, light blue, and so touchingly alone.</p>
+                    <div class="flex justify-between items-center text-gray-500 text-sm">
+                        <span><i class="fa-regular fa-clock"></i> 20 April, 2017</span>
+                        <a href="#" class="text-blue-600 hover:underline">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="bg-white rounded-2xl shadow-lg overflow-hidden transform hover:-translate-y-2 hover:shadow-2xl transition">
+                <img src="./assets/image/lg.jpg" alt="" class="w-full h-48 object-cover">
+                <div class="p-5">
+                    <h2 class="font-semibold text-xl mb-2">Latest Updates</h2>
+                    <p class="text-gray-600 mb-3">A journey to the unknown world begins with one small step.</p>
+                    <div class="flex justify-between items-center text-gray-500 text-sm">
+                        <span><i class="fa-regular fa-clock"></i> 21 April, 2017</span>
+                        <a href="#" class="text-blue-600 hover:underline">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="bg-white rounded-2xl shadow-lg overflow-hidden transform hover:-translate-y-2 hover:shadow-2xl transition">
+                <img src="./assets/image/lg.jpg" alt="" class="w-full h-48 object-cover">
+                <div class="p-5">
+                    <h2 class="font-semibold text-xl mb-2">Breaking Today</h2>
+                    <p class="text-gray-600 mb-3">The universe is vast, but every detail matters in our story.</p>
+                    <div class="flex justify-between items-center text-gray-500 text-sm">
+                        <span><i class="fa-regular fa-clock"></i> 22 April, 2017</span>
+                        <a href="#" class="text-blue-600 hover:underline">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
